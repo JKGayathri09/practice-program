@@ -1,0 +1,8 @@
+j=int(input())
+if j>0:
+    print("positive num")
+elif j<0:
+    print("Negative num")
+else:
+    print("invalid")
+    
