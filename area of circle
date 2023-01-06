@@ -1,0 +1,2 @@
+j=float(input())
+print("The area of Circle is:",3.14*j*j)
