@@ -1,0 +1,9 @@
+w=float(input())
+h=float(input())
+print("The area of rec is:",w*h)
+
+
+
+base=float(input())
+height=float(input())
+print("The area of tri is:",(base*height)/2)
