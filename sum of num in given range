@@ -1,0 +1,5 @@
+j,k=map(int,input().split())
+g=0
+for i in range (j,k+1):
+    g+=i
+print(g)
