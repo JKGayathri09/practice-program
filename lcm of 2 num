@@ -1,0 +1,9 @@
+j,k=map(int,input().split())
+maximum=max(j,k)
+while(maximum>0):
+    if(maximum%j==0 and maximum%k==0):
+        break
+    maxium+=1
+    
+print(maximum)
+      
