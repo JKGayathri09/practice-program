@@ -1,0 +1,24 @@
+j=int(input())
+k=j
+sum=0
+while(k>0):
+ g=1
+ rem=k%10
+ for i in range(1,rem+1):
+   g=g*i
+ sum=sum+g
+ k=k//10
+
+if (sum==j):
+    print(sum ,"is strong num")
+else:
+    print(sum," is not strong num")
+    
+    
+    
+WHAT IS STRONG NUMBER:
+    EX: 145= 1!+4!+5!=145
+    145=145 STRONG NUMBER
+         
+    
+    
