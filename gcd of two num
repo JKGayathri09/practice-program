@@ -1,0 +1,7 @@
+j,k=map(int,input().split())
+g=1
+while(g<=j and g<=k):
+    if(j%g==0 and k%g==0):
+        l=g
+    g+=1
+print("gcd is",l)
