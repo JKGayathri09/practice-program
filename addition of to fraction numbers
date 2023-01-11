@@ -1,0 +1,6 @@
+j,k=map(int,input().split())
+g,l=map(int,input().split())
+#c=(j/k)+(g/l)
+c=((j*l)+(g*k))/(k*l)
+print(c)
+
