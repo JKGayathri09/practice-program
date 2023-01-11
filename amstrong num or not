@@ -1,0 +1,12 @@
+j=int(input())
+temp=j
+g=0
+while(j>0):
+    k=j%10
+    l=k**3
+    g+=l
+    j=j//10
+if(temp==g):
+    print("Amstrong num")
+else:
+    print("Not a Amstrong num")
