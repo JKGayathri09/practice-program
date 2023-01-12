@@ -1,0 +1,8 @@
+j,k,g=map(int,input().split())
+if j>k and j>g:
+    print("The greatest num is j:",j)
+elif k>j and k>g:
+    print("The greatest num is k:",k)
+else:
+    print("The greatest num is g:",g)
+    
