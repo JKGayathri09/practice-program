@@ -1,0 +1,5 @@
+j=int(input())
+p=1
+for i in range(j):
+    p+=(5*1)
+print(p)     
